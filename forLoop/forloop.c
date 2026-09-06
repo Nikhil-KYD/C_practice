@@ -2,7 +2,7 @@
 int main()
 {
     
-    int prime, factorial;
+    int prime;
     int i, j;
 
     scanf("%d", &prime);
@@ -12,8 +12,10 @@ int main()
 
             for (j = 1; j <= i; j++) {
                 prime++;
+            }
         }
-
-         
     }
-    
+
+    return 0;
+}
+   
