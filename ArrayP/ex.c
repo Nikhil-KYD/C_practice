@@ -22,7 +22,7 @@ int main()
         printf("Marks in Subject 3: ");
         scanf("%d", &marks[i][2]);
     }
-
+    
     printf("\nStudent Results\n");
     printf("Name\tRoll No\tTotal\tPercentage\tAverage\n");
 
