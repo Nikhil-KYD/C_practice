@@ -29,8 +29,8 @@ int main()
     for (int i = 0; i < 5; i++)
     {
         int total = marks[i][0] + marks[i][1] + marks[i][2];
-        float percentage = (total / 300.0f) * 100;
-        float average = total / 3.0f;
+        float percentage = (total / 300.0) * 100;
+        float average = total / 3.0;
 
         printf("%s\t%d\t%d\t%.2f%%\t\t%.2f\n",
                names[i], rollNumbers[i], total, percentage, average);
