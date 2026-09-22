@@ -18,7 +18,7 @@ int main ()
         scanf(" %49[^\n]", name[i]);
         printf("Enter coupon: \n");
         scanf("%d", &coupon[i]);
-        printf("Enter 1st code: \n");
+        printf("Enter 1st code digit: \n");
         scanf("%d", &code[i][0]);
         printf("Enter 2st code: \n");
         scanf("%d", &code[i][1]);
