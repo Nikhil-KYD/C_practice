@@ -22,7 +22,7 @@ int main ()
         scanf("%d", &code[i][0]);
         printf("Enter 2st code digit: \n");
         scanf("%d", &code[i][1]);
-        printf("Enter 3rd code: \n");
+        printf("Enter 3rd code digit: \n");
         scanf("%d", &code[i][2]);
 
     } 
