@@ -15,16 +15,16 @@ int main()
         printf("Roll number: ");
         scanf("%d", &rollNumbers[i]);
 
-        printf("Marks in Subject 1: ");
+        printf("Marks in C Organization: ");
         scanf("%d", &marks[i][0]);
-        printf("Marks in Subject 2: ");
+        printf("Marks in Cyber threats: ");
         scanf("%d", &marks[i][1]);
-        printf("Marks in Subject 3: ");
+        printf("Marks in Discrete Maths: ");
         scanf("%d", &marks[i][2]);
     }
     
     printf("\nStudent Results\n");
-    printf("Name\tRoll No\tTotal\tPercentage\tAverage\n");
+    printf("Name\tRoll No\t\tTotal\tPercentage\tAverage\n");
 
     for (int i = 0; i < 5; i++)
     {
