@@ -27,7 +27,7 @@ int main ()
 
     } 
 
-    for (int i = 0; i < 3; i++)
+    for(int i = 0; i < 3; i++)
     {
         float total = code[i][0] + code[i][1] + code[i][2];
         float average = total / 3.0;
