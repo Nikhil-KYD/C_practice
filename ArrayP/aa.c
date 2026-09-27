@@ -2,13 +2,13 @@
 
 int main ()
 {
-    int numb[1];
+    int N[1];
 
     printf("Enter a number: ");
-    scanf("%d", &numb[0]);
+    scanf("%d", &N[0]);
 
-    int result = numb[0] * numb[0];
-    printf("Square of %d is %d\n", numb[0], result);
+    int result = N[0] * N[0];
+    printf("Square of %d is %d\n", N[0], result);
 
     return 0;
 }
