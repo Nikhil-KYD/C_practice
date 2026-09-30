@@ -21,7 +21,7 @@ int main ()
 
     printf("Enter How much\n");
     scanf("%d",&quantity);
-
+//ani
 
     switch (quantity)
     {
