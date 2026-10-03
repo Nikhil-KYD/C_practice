@@ -25,7 +25,7 @@
         }
               if (workbro == 0)  
             {      
-                printf("Not found the number");
+                printf("Not found the number twin get better");
             }
         return 0;
 
