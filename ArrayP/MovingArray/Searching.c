@@ -18,7 +18,7 @@
         {
             if (a[i] == x)
             {
-                printf("Found the number you entered %d heheheh", x);
+                printf("Found the number you entered %d heheheh\n", x);
                 workbro = 1;
                 break;
             }
@@ -27,6 +27,18 @@
             {      
                 printf("Not found the number twin get better");
             }
+            
+            if(workbro == 1)
+            {
+
+                for(int k = 0; k < 5; k++)
+                {
+                    printf("AWW HELL NAWHH TWIN U TOO GOATED DAMN CUH IMA KISS YOU\n");
+                   
+                }
+            }
         return 0;
 
+
+        
     }
