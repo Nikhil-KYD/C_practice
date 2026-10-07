@@ -58,7 +58,7 @@ void prime()
 int main ()
 {
     int damn;
-    printf("Choose an option:\n1. Factorial\n2. Fibonacci\n3. Prime Number\n");
+    printf("choose from 1 2 or 3\n");
     scanf("%d", &damn);
 
     switch (damn)

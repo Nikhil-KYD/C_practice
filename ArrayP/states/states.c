@@ -1,0 +1,2 @@
+// (QUESTION) C prpogram by funutional appraoch to visit or travel our our country by main function and explain the states versatility 
+// like UP, Bihar, Krnataka, Now in each state u need to define their popular cities or place by funactional approach again
