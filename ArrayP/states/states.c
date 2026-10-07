@@ -2,8 +2,14 @@
 // like UP, Bihar, Krnataka, Now in each state u need to define their popular cities or place by funactional approach again
 
 #include <stdio.h>
-int UP();
+void UP();
 void kanpur();
+void patna();
+void gaya();
+void bengaluru();
+void mysuru();
+void Bihar();
+void karnataka();
 void main ()
 {
     printf("Welcome to India\n");
@@ -13,12 +19,12 @@ void main ()
     printf("One of the states is Uttar Pradesh (UP):\n");
     UP();
     printf("Another state is Bihar:\n");
-  //  Bihar();
+    Bihar();
     printf("Another state is Karnataka:\n");
-    //karnataka();
+    karnataka();
 }
 
-int UP()
+void UP()
 {
     printf("Welcome to Uttar Pradesh (UP)\n");
     printf("Popular cities in UP include:\n");
@@ -27,10 +33,9 @@ int UP()
     printf("The most famous mall that was built recently was LULU.\nWho's founder was from Dubai\n");
     printf("2. The 2nd city famous for its historical significance is Kanpur.\n");
     kanpur();
-    return 0;
 
 }
-/*
+
 void Bihar()
 {
     printf("Welcome to Bihar\n");
@@ -84,8 +89,6 @@ void gaya()
     printf("Other attractions include Vishnupad Temple and Barabar Caves.\n");
 }
 
-
-*/
 void kanpur()
 {
     printf("Welcome to Kanpur, a major industrial city in UP\n");
