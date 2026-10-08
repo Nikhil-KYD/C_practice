@@ -10,6 +10,8 @@ void bengaluru();
 void mysuru();
 void Bihar();
 void karnataka();
+
+// this is the main function()
 void main ()
 {
     printf("Welcome to India\n");

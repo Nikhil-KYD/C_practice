@@ -105,7 +105,7 @@ void searching()
     }
 }
 
-int main(void)
+int main()
 {
     int damn;
 
