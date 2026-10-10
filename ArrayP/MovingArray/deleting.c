@@ -1,4 +1,9 @@
 #include <stdio.h>
+void hehe()
+{
+    printf("This is deletion of Array from given Arrays,");
+    printf("just enter the number you want to delete and boom thats it: ");
+}
 int main ()
 {
     int a [20] = {10, 20, 30, 40, 50, 60, 70};
@@ -34,9 +39,10 @@ int main ()
         }
             if (found == 0)
             {
-                printf("Wrong number can i get your moms number instead? ");
+                printf("Wrong number can i get your moms number instead?\n\n");
+                hehe();
             }
-                                                                                           
+             return 0;                                                                    
 }
 
 
