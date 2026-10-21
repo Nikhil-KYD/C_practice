@@ -23,7 +23,7 @@ void multiple()
 {
     float x = 12;
     float y = 10;
-    float ans = x * y;
+    float ans = ceil(x * y);
     printf("Your answer is: %f\n", ans);
 }
 
@@ -31,7 +31,7 @@ void div ()
 {
     float x = 30;
     float y = 10;
-    float ans = x/y;
+    float ans = ceil(x/y);
     printf("Your answer is: %f\n", ans);
 }
 
