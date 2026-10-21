@@ -47,3 +47,5 @@ int main ()
 
 
 
+// write a c program to implement a library if user defined functions for performing mathematical operations and demonstrate 
+// call by value and call by refrence 
